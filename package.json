@@ -1,7 +1,7 @@
 {
-    "name": "reactjs-vite-tailwind-vercel",
+    "name": "resto-globe",
     "version": "1.0.0",
-    "description": "ReactJS app with Vite, Tailwind",
+    "description": "Application pour localiser les restaurants dans le monde",
     "type": "module",
     "scripts": {
         "dev": "vite",
@@ -10,9 +10,15 @@
         "start": "vite --host"
     },
     "dependencies": {
+        "@googlemaps/js-api-loader": "^1.16.6",
+        "@googlemaps/react-wrapper": "^1.1.35",
+        "@react-google-maps/api": "^2.19.3",
         "@sentry/browser": "^8.41.0",
+        "axios": "^1.6.7",
         "react": "^18.2.0",
-        "react-dom": "^18.2.0"
+        "react-dom": "^18.2.0",
+        "react-icons": "^5.0.1",
+        "use-places-autocomplete": "^4.0.1"
     },
     "devDependencies": {
         "@vitejs/plugin-react": "^4.3.4",
